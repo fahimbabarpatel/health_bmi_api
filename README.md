@@ -1,9 +1,9 @@
 # health_bmi_api
-API to calculate BMI using Node.js Fastify framework.
+API to calculate BMI using Node.js Fastify framework https://www.fastify.io/benchmarks/ 
 
 API accepts (JSON) Height CM and Weight KG and returns(JSON) bmi with risk level and category
 
-- Install node.js 16.4 from https://nodejs.org/en/download/current/
+- Install node.js 16.4 from https://nodejs.org/en/download/
 
 
 ```sh
@@ -76,7 +76,9 @@ Output
 
 ```
 
-- Code Coverage - 100% https://drive.google.com/file/d/194-YMxsjWbh7khi_xM0eICStISbtcjSw/view?usp=sharing
+- Unit Test Code Coverage - 100% https://drive.google.com/file/d/194-YMxsjWbh7khi_xM0eICStISbtcjSw/view?usp=sharing
+- We can use Cloud container orchestration ef. AWS ECS to easily handle huge traffic
+- Also use Redis cache to store fresh bmi with mapping numbers, so next time it will pick from Redis. 
 
 
 
