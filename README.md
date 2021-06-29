@@ -50,11 +50,13 @@ npm start #to start server on 3000 port
 ```sh
 Input
 
+POST http://localhost:3000/bmi_cal/v1
+
 [
    {
-                "Gender": "Male",
-                "HeightCm": 172,
-                "WeightKg": 78.8
+       "Gender": "Male",
+       "HeightCm": 172,
+       "WeightKg": 78.8
    }
 ]
 
