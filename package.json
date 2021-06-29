@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "node server.js",
+    "test": "nyc --reporter=html mocha"
+  },
+  "dependencies": {
+    "config": "^3.3.6",
+    "fastify": "^3.18.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.1",
+    "nyc": "^15.1.0"
+  }
+}
