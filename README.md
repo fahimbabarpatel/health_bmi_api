@@ -1,7 +1,7 @@
 # health_bmi_api
 API to calculate BMI using Node.js Fastify framework.
 
-API which accepts (JSON) Height CM and Weight KG and returns(JSON) bmi with risk level and category
+API accepts (JSON) Height CM and Weight KG and returns(JSON) bmi with risk level and category
 
 - Install node.js 16.4 from https://nodejs.org/en/download/current/
 
@@ -75,6 +75,8 @@ Output
 
 
 ```
+
+- Code Coverage - 100% https://drive.google.com/file/d/194-YMxsjWbh7khi_xM0eICStISbtcjSw/view?usp=sharing
 
 
 
