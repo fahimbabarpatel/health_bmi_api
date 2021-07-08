@@ -5,7 +5,8 @@
   },
   "dependencies": {
     "config": "^3.3.6",
-    "fastify": "^3.18.0"
+    "fastify": "^3.18.0",
+    "mongodb": "^3.6.9"
   },
   "devDependencies": {
     "mocha": "^9.0.1",

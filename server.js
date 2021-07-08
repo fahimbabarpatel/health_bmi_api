@@ -3,7 +3,7 @@
 
 const fastify = require('fastify')({
     logger: true
-})
+});
 const config = require("config");
 const port = config.get("port")
 
